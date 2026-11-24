@@ -31,5 +31,3 @@ def notify_phone(topic, message, title="notification"):
 			ntfy_retrys += 1
 
 
-if __name__ == "__main__":
-	notify_phone("JSCtesting", "testing", "test")
